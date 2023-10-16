@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/Login.png);
+    background-size: cover;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+input {
+    border: none;
+    background: whitesmoke;
+    font-size: 'inter';
+    font-size: 16px;
+    font-weight: lighter;
+    letter-spacing: 1.4%;
+    text-align: center;
+    display: flex;
+    margin-top: 65px;
+    color: #314141;
+    border-radius: 15px;
+    height: 50px;
+    width: 400px;
+    cursor: pointer;
+}
+
+.login {
+    background-color: rgba(184, 184, 184, 0.582);
+    backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 690px;
+    border-radius: 20px;
+    border-left: solid #fff;
+}
+
+.btnClosed {
+    position: absolute;
+    background-color: red;
+    border-radius: 50px;
+    top: -25px;
+    right: -25px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+img {
+    width: 30px;
+}

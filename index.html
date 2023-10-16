@@ -9,23 +9,48 @@
   </head>
   <body>
     <header>
-      <div class="logo"><img src="./images/Logo.png" alt="" /></div>
+        <div class="logo">
+          <img src="./images/Logo.png" alt="" />
+        </div>
       <nav class="nav">
         <ul>
           <li><a href="">Home</a></li>
-          <li><a href="">Producto</a></li>
+          <li><a href="">Productos</a></li>
           <li><a href="">Novedades</a></li>
           <li><a href="">Sobre Nosotros</a></li>
-          <li><a href="">Contacto</a></li>
+          <li><a href="./pages/contacto.html">Contacto</a></li>
         </ul>
       </nav>
       <div class="search">
         <input type="text" placeholder="Buscar..." />
         <button type="submit">
-          <i class="fas fa-search"></i> 
+          <ion-icon name="search-outline"></ion-icon>
         </button>
       </div>
     </header>
+
+      <section>
+      <div class="barrita">
+      </div>
+      <aside class="text">
+        <h1>VENI A CONOCER LOS <span>MEJORES</span></h1>
+        <h1 class="text2">SABORES DE LA CIUDAD !!</h1>
+      </aside>
+    </section>
+    
+    <section class="parrafo">
+      <h5>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió</h5>
+    </section>
+    
+    <section id="registroSection" class="registro-hidden">
+      <button class="btnRegistro" id="showFormButton">
+          <span>Regístrate</span>
+      </button>
+
+  </section>
+
     <script src="./js/main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   </body>
 </html>
