@@ -1,13 +1,21 @@
-const showFormButton = document.getElementById("showFormButton");
+const botonRegistro = document.getElementById('showFormButton');
+const botonCerrar = document.querySelector('.btnClosed');
+const imagenCerrar = document.querySelector('.btnClosed img');
 
-showFormButton.addEventListener("click", function () {
-    window.location.href = "./pages/formulario.html";
-});
+if (botonRegistro) {
+    botonRegistro.addEventListener('click', function () {
+        window.location.href = './pages/formulario.html';
+    });
+}
 
-    const btnBack = document.getElementById("btnBack");
-
-    btnBack.addEventListener("click", function () {
-        window.location.href = "../index.html#top";
+if (botonCerrar) {
+    botonCerrar.addEventListener('click', function () {
+        window.location.href = '../index.html';
     });
 
-
+    if (imagenCerrar) {
+        imagenCerrar.addEventListener('click', function () {
+            window.location.href = '../index.html';
+        });
+    }
+}
